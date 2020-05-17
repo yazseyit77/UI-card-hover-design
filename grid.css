@@ -7,18 +7,14 @@
   font-family: "Poppins", sans-serif;
 }
 
-.mainDiv {
+body {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   min-height: 100vh;
-  background-color: #dff5f7;
+  background-color: #010615;
   margin-bottom: 10px;
-}
-
-.box:hover {
-  height: 400px;
 }
 
 .box {
@@ -33,6 +29,10 @@
   transition: 0.5s;
 }
 
+.box:hover {
+  height: 400px;
+}
+
 .box .imgBx {
   position: absolute;
   top: 0;
@@ -45,7 +45,7 @@
 
 .box .imgBx img {
   max-width: 100%;
-  opacity: 0.3;
+  opacity: 0.2;
   transition: 0.5s;
 }
 
@@ -60,7 +60,7 @@
   left: -2px;
   right: -2px;
   bottom: -2px;
-  background: rgb(192, 232, 241);
+  background: #fff;
   z-index: -1;
 }
 
@@ -98,7 +98,7 @@
   right: 10px;
   bottom: 10px;
   height: 90px;
-  background-color: rgba(0, 0, 0, 4);
+  background-color: rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,7 +113,7 @@
 
 .box .content h2 {
   font-size: 20px;
-  color: #fff;
+  color: rgb(194, 194, 194);
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 1px;
@@ -121,7 +121,7 @@
 
 .box .content h2 span {
   font-size: 14px;
-  color: #fff;
+  color: rgb(194, 194, 194);
   font-weight: 200;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
 }
